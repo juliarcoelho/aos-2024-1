@@ -1,0 +1,12 @@
+{
+  "name": "aos-2024-1",
+  "version": "1.0.0",
+  "description": "## Sistemas para Internet (UNICAP)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

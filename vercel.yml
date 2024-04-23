@@ -1,0 +1,9 @@
+version: 2
+phases:
+  build:
+    commands:
+      - docker build -t vercel .
+  deploy:
+    docker:
+      image: vercel
+      command: ["docker", "run", "-p", "3000:3000", "vercel"]
